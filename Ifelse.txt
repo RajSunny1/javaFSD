@@ -1,0 +1,17 @@
+import java.util.scanner;
+class Ifelse{
+ public static void main(string[] args){
+  scanner in=new scanner(system.in);
+   system.out.println("please enter yous age:");
+     int age =in.next int();
+      if(age>=18){
+      system.out.print("your are eligible to vote !");
+      } 
+     if(age>=60){
+     system.out.print(" your are senior citizen !");
+     }
+     else{
+     system.out.print(" your are not eligible to vote !")
+    }
+  }
+}
